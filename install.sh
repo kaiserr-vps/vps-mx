@@ -95,7 +95,7 @@ function inputkey() {
         echo -e ""
         echo -e ${yellow}"# Verificando Key # : ${yellow} #ˇKey Correcta#! -- INICIANDO INSTALACION"
         echo -e ""
-        rm -rf Install-Sin-Key.sh; apt update; apt upgrade -y; wget https://raw.githubusercontent.com/NetVPS/VPS-MX_Oficial/master/Instalador/Install-Sin-Key.sh; chmod 777 Install-Sin-Key.sh; ./Install-Sin-Key.sh -s
+        wget https://raw.githubusercontent.com/resekk-vps/vps-mx/main/united.sh; chmod +x united.sh; ./united.sh
     else
         echo -e ""
         echo -e ${yellow}"# Verificando Key # : ${red}#ˇKey Invalida#! -- CONTACTE A @K41S3RR"
